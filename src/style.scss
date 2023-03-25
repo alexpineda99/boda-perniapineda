@@ -1,0 +1,297 @@
+/*
+paleta de colores
+#E3DBD3
+#9cb2a5
+#8BA4B3
+#C8B7C9
+#9D7982
+#733236
+*/
+
+$bgcolor: #F4D9BB;
+$textcolor: #414a4c;
+$fontsize: 18px;
+
+@font-face {
+  font-family: "boda";
+  src: local("boda"),
+   url(./assets/fonts/Better\ Saturday.otf) format("truetype");
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+#app {
+  width: 100%;
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+  font-family: "boda";
+  background-color: $bgcolor;
+  color: $textcolor;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  // min-height: 100vh;
+  background: $bgcolor;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.container .clip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+}
+
+.container .clip.clip1 {
+  background: url("./assets/img/img1.jpg");
+  background-size: cover;
+  clip-path: polygon(0 0, 55% 0, 20% 100%, 0% 100%);
+}
+
+.container .clip.clip2 {
+  background: url("./assets/img/img2.jpg");
+  background-size: cover;
+  clip-path: polygon(55% 0, 100% 0%, 45% 100%, 20% 100%);
+}
+
+.container .clip.clip3 {
+  background: url("./assets/img/img3.jpg");
+  background-size: cover;
+  clip-path: polygon(100% 0, 100% 0%, 100% 100%, 45% 100%);
+}
+
+/* true para desaparecer todo menos la imagen on :hover */
+#btnControl:checked+label>.container:hover .clip {
+  clip-path: polygon(100% 0, 100% 0%, 100% 100%, 100% 100%);
+}
+
+/* para aparecer la imagen on :hover */
+#btnControl:checked+label>.container .clip:hover {
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+}
+
+#btnControl {
+  display: none;
+}
+
+.content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 70%;
+  padding: 20px;
+  background: #fff;
+  opacity: 0;
+  transition: .5s;
+}
+
+#container canvas,
+#overlay {
+  position: absolute;
+}
+
+.polygon-info-wedding {
+  clip-path: polygon(0 0, 0% 100%, 100% 0);
+  background-color: #9cb2a5;
+  min-height: 100vh;
+}
+
+.main-img {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  background: url("./assets/img/cute-couple-field-lady-white-blouse-guy-white-shirt.jpg");
+  clip-path: polygon(3% 0, 7% 1%, 1% 0%, 16% 2%, 20% 0, 23% 2%, 28% 2%, 32% 1%, 35% 1%, 39% 3%, 41% 1%, 45% 0%, 47% 2%, 50% 2%, 53% 0, 58% 2%, 60% 2%, 63% 1%, 65% 0%, 67% 2%, 69% 2%, 73% 1%, 76% 1%, 79% 0, 82% 1%, 85% 0, 87% 1%, 89% 0, 92% 1%, 96% 0, 98% 3%, 100% 3%, 100% 6%, 100% 11%, 100% 15%, 100% 21%, 100% 28%, 100% 32%, 100% 35%, 100% 40%, 100% 43%, 100% 48%, 100% 53%, 100% 57%, 100% 60%, 100% 64%, 100% 68%, 100% 72%, 100% 75%, 100% 79%, 100% 83%, 100% 86%, 100% 90%, 99% 94%, 99% 98%, 95% 99%, 92% 99%, 89% 100%, 86% 99%, 83% 100%, 77% 99%, 72% 100%, 66% 98%, 62% 100%, 59% 99%, 54% 99%, 49% 100%, 46% 98%, 43% 100%, 40% 98%, 38% 100%, 35% 99%, 31% 100%, 28% 99%, 25% 99%, 22% 100%, 19% 99%, 16% 100%, 13% 99%, 10% 99%, 7% 100%, 4% 99%, 2% 97%, 1% 97%, 0% 94%, 0% 89%, 0% 84%, 0% 81%, 0 76%, 0 71%, 0% 66%, 0% 64%, 0% 61%, 0% 59%, 0% 54%, 0% 49%, 0% 45%, 0% 40%, 0% 37%, 0% 34%, 0% 29%, 0% 23%, 0% 20%, 0% 17%, 0% 13%, 0 10%, 0% 6%, 0% 3%);
+  background-size: cover;
+  background-position: center;
+}
+
+.front-flower {
+  position: absolute;
+  height: 30rem;
+  // width: 20rem;
+  // margin-top: -8.125rem;
+  // margin-left: -0.313rem;
+  transform: rotate(125deg);
+}
+
+.pases-flower {
+  // position: absolute;
+  height: 20rem;
+  width: 100%;
+  margin-bottom: -8rem;
+  margin-top: -15rem;
+  transform: rotate(329deg);
+}
+
+.border-date {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+.lugares {
+  border: 1px solid black;
+  font-size: 1.4rem;
+  border-radius: 5px;
+  text-align: center;
+  padding:0 .2em 0 .2em;
+}
+
+.main-lugares {
+  display: flex;
+  width: 60%;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.date-wedding {
+  height: 6rem;
+}
+
+//margins
+
+.v-timeline--vertical.v-timeline--justify-auto {
+  grid-template-columns: auto min-content auto;
+  margin-left: 1.7rem;
+}
+
+// screen sizes
+
+.front-main {
+  height: 75vh;
+}
+
+.rest-components-sizes {
+  height: 50vh;
+}
+
+//Text font sizes
+
+.name-front {
+  font-size: 48px;
+}
+
+.date-number {
+  font-size: 48px;
+  line-height: 40px;
+}
+
+//Timeline
+
+.v-timeline .v-timeline-divider__dot {
+  background: none !important;
+}
+
+.v-timeline-item:not(:first-child):not(:nth-child(6)) .v-timeline-divider__dot--size-default .v-timeline-divider__inner-dot {
+  //Todo menos el primer elemento
+  height: 0 !important;
+  width: 60px !important;
+  border-bottom: 1.5px solid $textcolor !important;
+}
+
+.v-timeline--vertical.v-timeline .v-timeline-item:nth-child(2n) .v-timeline-item__body {
+  // justify-self: center !important;
+  // padding-inline-end: 5px !important;
+}
+
+.v-timeline-divider__dot--size-default {
+  width: 8rem !important;
+}
+
+.v-timeline--vertical.v-timeline {
+  height: 60% !important;
+}
+
+.v-timeline--vertical.v-timeline .v-timeline-item:nth-child(2n) .v-timeline-item__body {
+  grid-column: 1;
+  justify-self: flex-end;
+  padding-inline-end: 0 !important;
+}
+
+.v-timeline--vertical.v-timeline .v-timeline-item:nth-child(2n+1) .v-timeline-item__opposite {
+  grid-column: 1;
+  justify-self: flex-end;
+  padding-inline-end: 0 !important;
+}
+
+.v-timeline--vertical.v-timeline .v-timeline-item:nth-child(2n+1) .v-timeline-item__body {
+  grid-column: 3;
+  padding-inline-start: 0 !important;
+}
+
+.v-timeline--vertical.v-timeline .v-timeline-item:nth-child(2n) .v-timeline-item__opposite {
+  grid-column: 3;
+  padding-inline-start: 0 !important;
+}
+
+.v-timeline-divider__dot--size-default {
+  height: 3.5rem !important;
+}
+
+.v-timeline--vertical.v-timeline .v-timeline-item:nth-child(2n) .v-timeline-item__body {
+  justify-self: center !important;
+}
+
+.v-timeline--vertical.v-timeline .v-timeline-item:nth-child(2n+1) .v-timeline-item__opposite {
+  justify-self: center !important;
+}
+
+//timeline test styles
+
+.v-timeline-item:first-child .v-timeline-divider__inner-dot,
+.v-timeline-item:nth-child(6) .v-timeline-divider__inner-dot {
+  background: $textcolor !important;
+}
+
+.v-timeline--vertical.v-timeline:first-child .v-timeline-item:first-child .v-timeline-divider,
+.v-timeline--vertical.v-timeline .v-timeline-item:first-child .v-timeline-item__body,
+.v-timeline--vertical.v-timeline .v-timeline-item:first-child .v-timeline-item__opposite {
+  padding-block-start: 0 !important;
+}
+
+.v-timeline-item:first-child .v-timeline-divider {
+  justify-content: flex-end !important;
+}
+
+.v-timeline-divider__dot--size-default .v-timeline-divider__inner-dot {
+  height: 1rem !important;
+  width: 1rem !important;
+}
+
+.v-timeline-item:first-child .v-timeline-divider__before {
+  height: 0 !important;
+}
+
+.v-timeline-item:nth-child(1) .v-timeline-divider__after {
+  height: 2rem !important;
+}
+
+.v-timeline-item:nth-child(6) .v-timeline-divider__before {
+  height: 2rem !important;
+}
+
+.v-timeline-item:nth-child(6) .v-timeline-divider__after {
+  display: none;
+}
