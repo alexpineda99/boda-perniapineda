@@ -1,9 +1,9 @@
-import {createRouter, createWebHashHistory} from "vue-router";
+import {createRouter, createWebHashHistory, createWebHistory} from "vue-router";
 import Home from "../components/MainCard.vue"
 import Error from "../components/error.vue";
 
 const Router = createRouter({
-    history: createWebHashHistory(import.meta.env.BASE_URL),
+    history: createWebHistory(import.meta.env.BASE_URL),
     routes: [
         {
             path:"/invitation/:id",
