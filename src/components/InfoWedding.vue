@@ -11,7 +11,7 @@
         <!-- <div class="overlay d-flex justify-center align-center h-screen"> aqui va la invitacion</div> -->
         <div class="d-flex justify-center w-100 text-center">Con nuestro amor, la bendición de Dios y en compañia de
             nuestros padres</div>
-            <SvgIcon name="IconRings" />
+
         <div class="d-flex justify-center w-100 text-center mt-5">Nosotros</div>
 
         <div class="d-flex w-100 justify-center text-center flex-column mt-5">
@@ -58,7 +58,6 @@
 import { Fireworks } from '@fireworks-js/vue'
 import type { FireworksOptions } from '@fireworks-js/vue'
 import { ref, watch } from 'vue'
-import SvgIcon from "./Icons/IconBase.vue";
 const options = ref<FireworksOptions>({ opacity: 0.5 })
 </script>
   
