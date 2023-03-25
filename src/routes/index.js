@@ -6,8 +6,8 @@ const Router = createRouter({
     history: createWebHashHistory(import.meta.env.BASE_URL),
     routes: [
         {
-            path:"/",
-            name: "home",
+            path:"/invitation/:id",
+            name: "invitation",
             component: Home
         },
         {
