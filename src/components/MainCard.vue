@@ -7,9 +7,9 @@ import Contact from "./Contact.vue";
 </script>
 
 <template>
-  <frontMain />
+  <!-- <frontMain /> -->
   <InfoWedding/>
-  <Timeline/>
+  <!-- <Timeline/>
   <Pases/>
-  <Contact/>
+  <Contact/> -->
 </template>
