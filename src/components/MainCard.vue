@@ -10,6 +10,6 @@ import Contact from "./Contact.vue";
   <frontMain />
   <InfoWedding/>
   <Timeline/>
-  <!-- <Pases/> -->
+  <Pases/>
   <Contact/>
 </template>
