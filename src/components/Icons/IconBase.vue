@@ -13,7 +13,7 @@ export default {
     dynamicComponent() {
       const name = this.name;
 
-      return defineAsyncComponent(() => import(`./IconCheers.vue`));
+      return defineAsyncComponent(() => import(`./${name}.vue`));
     },
   },
 };
