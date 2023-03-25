@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "prebuild": "npm run icons",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -16,6 +17,7 @@
     "sass": "^1.58.3",
     "vue": "^3.2.45",
     "vue-router": "^4.1.6",
+    "vue-svgicon": "^3.3.2",
     "vuetify": "^3.1.6"
   },
   "devDependencies": {
