@@ -7,8 +7,8 @@ const Router = createRouter({
     routes: [
         {
             path:"/",
-            name: "invitation",
-            component: () => Home
+            name: "home",
+            component: Home
         },
         {
             path:"/:pathMatch(.*)*",
