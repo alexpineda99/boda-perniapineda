@@ -12,11 +12,11 @@ $bgcolor: #F4D9BB;
 $textcolor: #414a4c;
 $fontsize: 18px;
 
-@font-face {
-  font-family: "boda";
-  src: local("boda"),
-   url(./assets/fonts/Better\ Saturday.otf) format("truetype");
-}
+// @font-face {
+//   font-family: "boda";
+//   src: local("boda"),
+//    url(./assets/fonts/Better\ Saturday.otf) format("truetype");
+// }
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -33,7 +33,7 @@ body {
   margin: 0;
   display: flex;
   min-height: 100vh;
-  font-family: "boda";
+  // font-family: "boda";
   background-color: $bgcolor;
   color: $textcolor;
   overflow: hidden;
