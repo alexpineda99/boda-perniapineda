@@ -30,5 +30,6 @@ import { Icon } from '@iconify/vue';
             <p class="mt-5"> Esperamos contar con su presencia </p>
             <p>Muchas gracias</p>
         </div>
+        <img src="../assets/img/Main/watercolor-eucalyptus-leaf-free-png.png" class="last-flower">
     </div>
 </template>

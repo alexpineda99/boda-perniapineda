@@ -12,8 +12,9 @@
         <div class="d-flex justify-center w-100 text-center">Con nuestro amor, la bendición de Dios y en compañia de
             nuestros padres</div>
 
-        <div class="d-flex justify-center w-100 text-center mt-5">Nosotros</div>
-
+        <div class="d-flex justify-center w-100 text-center mt-5 h-100">Nosotros</div>
+        <img src="../assets/img/Main/watercolor-eucalyptus-leaf-free-png.png" class="info-first-flower">
+        <img src="../assets/img/Main/watercolor-eucalyptus-leaf-free-png.png" class="info-second-flower">
         <div class="d-flex w-100 justify-center text-center flex-column mt-5">
             <p>
             <h1 class="mr-16"> Luis </h1>

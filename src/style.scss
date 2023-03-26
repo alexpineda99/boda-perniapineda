@@ -125,12 +125,22 @@ body {
 
 .front-flower {
   position: absolute;
-  height: 30rem;
+  height: 20rem;
   // width: 20rem;
-  // margin-top: -8.125rem;
-  // margin-left: -0.313rem;
-  transform: rotate(125deg);
+  margin-top: -8.125rem;
+  margin-left: -1.113rem;
+  transform: rotate(120deg);
 }
+
+.last-flower {
+  // position: absolute;
+  height: 20rem;
+  // width: 20rem;
+  margin-top: -8.125rem;
+  margin-left: -1.113rem;
+  transform: rotate(335deg);
+}
+
 
 .pases-flower {
   // position: absolute;
@@ -139,6 +149,32 @@ body {
   margin-bottom: -8rem;
   margin-top: -15rem;
   transform: rotate(329deg);
+}
+
+.info-first-flower {
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+    width: 100%;
+    top: -10%;
+    // margin-top: -8.125em;
+    margin-left: 80%;
+    // margin-right: -60%;
+    transform: rotate(160deg);
+}
+
+.info-second-flower {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+  width: 100%;
+  top: -4%;
+  // margin-top: -8.125em;
+  margin-left: -70%;
+  // margin-right: -60%;
+  transform: rotate(110deg);
 }
 
 .border-date {
@@ -180,7 +216,7 @@ body {
 // screen sizes
 
 .front-main {
-  height: 75vh;
+  height: 55vh;
 }
 
 .rest-components-sizes {
