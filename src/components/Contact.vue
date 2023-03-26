@@ -1,10 +1,11 @@
 <script setup>
 import SvgIcon from "./Icons/IconBase.vue";
+import { Icon } from '@iconify/vue';
 </script>
 
 <template>
     <div class="d-flex justify-center align-center flex-column mt-15">
-        <SvgIcon name="IconWhatsapp" />
+        <Icon icon="ic:baseline-whatsapp" width="35" height="5rem" />
         <p class="font-bold">Confirmación</p>
         <p>Por favor confirma tu</p>
         <p>asistencia antes del 10 de mayo</p>
@@ -18,7 +19,10 @@ import SvgIcon from "./Icons/IconBase.vue";
         <div class="d-flex justify-center align-center flex-column mt-5">
 
             <p class="font-bold"> Vestimenta </p>
-            <SvgIcon name="IconMarry" />
+            <div class="d-flex">
+            <Icon icon="icon-park-outline:clothes-suit" width="35" height="5rem" />
+            <Icon icon="ph:dress-bold" width="35" height="5rem" />
+            </div>
             <p>Elegante</p>
 
             <p class="mt-5"> Ceremonia y recepción sólo adultos </p>
