@@ -1,5 +1,6 @@
 <script setup>
 import SvgIcon from "./Icons/IconBase.vue";
+import { Icon } from '@iconify/vue';
 </script>
 
 <template>
@@ -20,12 +21,12 @@ import SvgIcon from "./Icons/IconBase.vue";
             </div>
           </div>
         </template>
-        <SvgIcon name="IconRings" />
+        <Icon icon="mdi:ring" width="3em" />
       </v-timeline-item>
       <v-timeline-item>
         <template v-slot:opposite>
           <div>
-            <SvgIcon name="IconCheers" />
+          <Icon icon="bx:drink" width="3em" />
           </div>
         </template>
         <div>
@@ -40,11 +41,11 @@ import SvgIcon from "./Icons/IconBase.vue";
             <div>Cena</div>
           </div>
         </template>
-        <SvgIcon name="IconFood" />
+        <Icon icon="fluent:food-24-regular" width="3em" />
       </v-timeline-item>
       <v-timeline-item>
         <template v-slot:opposite>
-          <SvgIcon name="IconClock" />
+          <Icon icon="material-symbols:nest-clock-farsight-analog-outline" width="3em" />
         </template>
         <div>
           <div>5:30 PM</div>

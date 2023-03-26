@@ -1,5 +1,6 @@
 <script setup>
 import SvgIcon from "./Icons/IconBase.vue";
+import { Icon } from '@iconify/vue';
 import { routerKey, useRoute, useRouter } from "vue-router";
 
 const route = useRoute();
@@ -27,14 +28,14 @@ if (pases === "eyJpZCI6Mn0") {
 
 <template>
     <div class="d-flex justify-center w-100 flex-column align-center">
-        <SvgIcon name="IconInvitations" />
+        <Icon icon="tabler:cards" width="3em" />
         <span class="font-bold">Pases</span>
         <span class="mb-2">Tenemos reservados</span>
 
         <div class="main-lugares">Para ti <span class="lugares"> {{ pases }} </span> {{ pases === 1 ? 'Lugar' : 'Lugares' }} </div>
 
         <div class="d-flex justify-center w-100 flex-column align-center text-center mt-8">
-            <SvgIcon name="IconGift" />
+            <Icon icon="ant-design:gift-outlined" width="3em" />
             <p class="font-bold">Sugerencia de regalo</p>
             <p>Nos sentimos muy afortunados de tenerlos en nuestras vidas
                 y esperamos celebrar nuestro gran día con ustedes. Si planean
