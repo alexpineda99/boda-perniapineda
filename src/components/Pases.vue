@@ -20,8 +20,8 @@ if (pases === "eyJpZCI6Mn0") {
     pases = 5
 } else {
     pases = 8
-    // console.log("gg");
-    // router.push("/325238")
+    console.log("gg");
+    router.push("/325238")
 }
 
 </script>

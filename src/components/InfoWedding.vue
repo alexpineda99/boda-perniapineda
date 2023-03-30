@@ -17,13 +17,13 @@
         <img src="../assets/img/Main/watercolor-eucalyptus-leaf-free-png.png" class="info-second-flower">
         <div class="d-flex w-100 justify-center text-center flex-column mt-5">
             <p>
-            <h1 class="mr-16"> Luis </h1>
+            <h1 class="mr-16 title-font"> Luis </h1>
             </p>
             <p>
             <h1>&</h1>
             </p>
             <p>
-            <h1 class="ml-16">Meridiz</h1>
+            <h1 class="ml-16 title-font">Meridiz</h1>
             </p>
         </div>
 
