@@ -60,6 +60,10 @@ body {
   background: $bgcolor;
 }
 
+.light-weight {
+  font-weight: 100;
+}
+
 .font-bold {
   font-weight: bold;
 }
@@ -181,7 +185,7 @@ body {
     right: -15rem;
     justify-content: flex-end;
     height: 100%;
-    width: 100%;
+    width: 20rem;
     top: -9%;
     // margin-top: -8.125em;
     margin-left: 16rem;
