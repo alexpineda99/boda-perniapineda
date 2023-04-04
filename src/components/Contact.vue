@@ -10,10 +10,10 @@ import { Icon } from '@iconify/vue';
         <p>Por favor confirma tu</p>
         <p>asistencia antes del 10 de mayo</p>
         <div class="d-flex justify-center w-100 mt-1 weight-font">
-            <v-btn class="w-50 weight-font" variant="flat" href="https://wa.me/584127239580"  color="#9cb2a5">Contacto Luis</v-btn>
+            <v-btn class="w-50 weight-font mt-2" variant="flat" href="https://wa.me/"  color="#9cb2a5">Contacto Luis</v-btn>
         </div>
-        <div class="d-flex justify-center w-100 mt-1">
-            <v-btn class="w-50" variant="flat" href="https://wa.me/584246264743" color="#9cb2a5">Contacto Meridiz</v-btn>
+        <div class="d-flex justify-center w-100 mt-2">
+            <v-btn class="w-50" variant="flat" href="https://wa.me/" color="#9cb2a5">Contacto Meridiz</v-btn>
         </div>
 
         <div class="d-flex justify-center align-center flex-column mt-5">

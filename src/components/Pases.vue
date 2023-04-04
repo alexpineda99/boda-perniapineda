@@ -37,7 +37,7 @@ if (pases === "eyJpZCI6Mn0") {
         <div class="d-flex justify-center w-100 flex-column align-center text-center mt-8">
             <Icon icon="ant-design:gift-outlined" width="3em" />
             <p class="font-bold">Sugerencia de regalo</p>
-            <p>Nos sentimos muy afortunados de tenerlos en nuestras vidas
+            <p class="ma-10">Nos sentimos muy afortunados de tenerlos en nuestras vidas
                 y esperamos celebrar nuestro gran día con ustedes. Si planean
                 hacernos un regalo, una contribución monetaria sería muy bienvenida
             </p>
