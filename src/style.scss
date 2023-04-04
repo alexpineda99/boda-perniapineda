@@ -41,6 +41,26 @@ $fontsize: 18px;
   min-height: 100vh;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+  background: transparent;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 body {
   margin: 0;
   display: flex;
@@ -263,6 +283,17 @@ body {
   line-height: 4rem;
 }
 
+
+.text-unique-color {
+  
+color: #8BA4B3;
+//   #E3DBD3
+// #9cb2a5
+// #8BA4B3
+// #C8B7C9
+// #9D7982
+// #733236
+}
 //Timeline
 
 .v-timeline .v-timeline-divider__dot {
