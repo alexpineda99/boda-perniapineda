@@ -1,14 +1,5 @@
 <template>
     <div class="container">
-        <!-- <Fireworks :autostart="true" :options="options" :style="{
-            top: 0,
-            left: 0,
-            width: '100%',
-            // height: '100vh',
-            position: 'absolute'
-        }" /> -->
-
-        <!-- <div class="overlay d-flex justify-center align-center h-screen"> aqui va la invitacion</div> -->
         <div class="d-flex justify-center w-100 text-center">Con nuestro amor, la bendición de Dios y en compañia de
             nuestros padres</div>
 
