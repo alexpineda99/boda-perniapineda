@@ -30,14 +30,14 @@ import { Icon } from '@iconify/vue';
           </div>
         </template>
         <div>
-          <div>5:30 PM</div>
+          <div>7:30 PM</div>
           <div>Reunion</div>
         </div>
       </v-timeline-item>
       <v-timeline-item>
         <template v-slot:opposite>
           <div>
-            <div>5:30 PM</div>
+            <div>9:30 PM</div>
             <div>Cena</div>
           </div>
         </template>
@@ -48,7 +48,7 @@ import { Icon } from '@iconify/vue';
           <Icon icon="material-symbols:nest-clock-farsight-analog-outline" width="3em" />
         </template>
         <div>
-          <div>5:30 PM</div>
+          <div>02:00 PM</div>
           <div>Despedida</div>
         </div>
       </v-timeline-item>
